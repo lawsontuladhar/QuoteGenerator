@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quote Generator App</title>
+  </head>
+  <body>
+    <h1>Quote Generator</h1>
+    <div class="container">
+      <div class="quote-container">
+        <p id="quote">Quote</p>
+        <p id="author">Author</p>
+      </div>
+      <div class="controls">
+        <button>Previous</button>
+        <button>Next</button>
+        <button>Random</button>
+      </div>
+    </br>
+    </br>
+      <div class="options">
+        <label for="category">Select Category:</label>
+        <select id="category">
+          <option value="happiness">Happiness</option>
+          <option value="inspirational">Inspirational</option>
+          <option value="life">Life</option>
+        </select>
+    </br>
+    </br>
+        <label for="darkMode">Dark Mode:</label>
+        <input type="checkbox" id="darkMode" />
+    </br>
+    </br>
+        <label for="fontSize">Font Size:</label>
+        <button onclick="increaseFontSize()">+</button>
+        <button onclick="decreaseFontSize()">-</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
