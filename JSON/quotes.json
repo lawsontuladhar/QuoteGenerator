@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "quote": "Most folks are as happy as they make up their minds to be.",
+    "author": "Abraham Lincoln",
+    "category": "happiness"
+  },
+  {
+    "id": 2,
+    "quote": "Be happy for this moment. This moment is your life.",
+    "author": "Omar Khayyam",
+    "category": "happiness"
+  },
+  {
+    "id": 3,
+    "quote": "Happiness is when what you think, what you say, and what you do are in harmony.",
+    "author": "Mahatma Gandhi",
+    "category": "happiness"
+  },
+  {
+    "id": 4,
+    "quote": "Happiness depends upon ourselves.",
+    "author": "Aristotle",
+    "category": "happiness"
+  },
+  {
+    "id": 5,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "author": "Dalai Lama",
+    "category": "happiness"
+  },
+  {
+    "id": 6,
+    "quote": "If you want to be happy, be.",
+    "author": "Leo Tolstoy",
+    "category": "happiness"
+  },
+  {
+    "id": 7,
+    "quote": "Everything has its wonders, even darkness and silence, and I learn, whatever state I may be in, therein to be content.",
+    "author": "Helen Keller",
+    "category": "happiness"
+  },
+  {
+    "id": 8,
+    "quote": "Happiness can exist only in acceptance.",
+    "author": "George Orwell",
+    "category": "happiness"
+  },
+  {
+    "id": 9,
+    "quote": "The happiest people seem to be those who have no particular cause for being happy except that they are so.",
+    "author": "William Inge",
+    "category": "happiness"
+  },
+  {
+    "id": 10,
+    "quote": "The most worth-while thing is to try to put happiness into the lives of others.",
+    "author": "Robert Baden-Powell",
+    "category": "happiness"
+  },
+  {
+    "id": 11,
+    "quote": "Be the change that you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "category": "inspirational"
+  },
+  {
+    "id": 12,
+    "quote": "Not all of us can do great things. But we can do small things with great love.",
+    "author": "Mother Teresa",
+    "category": "inspirational"
+  },
+  {
+    "id": 13,
+    "quote": "Before you diagnose yourself with depression or low self-esteem, first make sure that you are not, in fact, just surrounded by assholes.",
+    "author": "Sigmund Freud",
+    "category": "inspirational"
+  },
+  {
+    "id": 14,
+    "quote": "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.",
+    "author": "Albert Einstein",
+    "category": "inspirational"
+  },
+  {
+    "id": 15,
+    "quote": "When one door closes, another door opens; but we so often look so long and regretfully upon the closed door, that we do not see the ones which open for us.",
+    "author": "Alexander Graham Bell",
+    "category": "inspirational"
+  },
+  {
+    "id": 16,
+    "quote": "This is not the end, this is not even the beginning of the end, this is just perhaps the end of the beginning.",
+    "author": "Winston Churchill",
+    "category": "inspirational"
+  },
+  {
+    "id": 17,
+    "quote": "I am a little pencil in the hand of a writing God who is sending a love letter to the world. Mother Teresa",
+    "author": "Mother Teresa",
+    "category": "inspirational"
+  },
+  {
+    "id": 18,
+    "quote": "Find a place inside where there's joy, and the joy will burn out the pain.",
+    "author": "Joseph Campbell",
+    "category": "inspirational"
+  },
+  {
+    "id": 19,
+    "quote": "I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.'",
+    "author": "Muhammad Ali",
+    "category": "inspirational"
+  },
+  {
+    "id": 20,
+    "quote": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle Onassis",
+    "category": "inspirational"
+  },
+  {
+    "id": 21,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "category": "life"
+  },
+  {
+    "id": 22,
+    "quote": "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",
+    "author": "Steve Jobs",
+    "category": "life"
+  },
+  {
+    "id": 23,
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "life"
+  },
+  {
+    "id": 24,
+    "quote": "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
+    "author": "Oprah Winfrey",
+    "category": "life"
+  },
+  {
+    "id": 25,
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "category": "life"
+  },
+  {
+    "id": 26,
+    "quote": "Life is what happens while you are busy making other plans.",
+    "author": "John Lennon",
+    "category": "life"
+  },
+  {
+    "id": 27,
+    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "author": "Buddha",
+    "category": "life"
+  },
+  {
+    "id": 28,
+    "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "author": "Marie Curie",
+    "category": "life"
+  },
+  {
+    "id": 29,
+    "quote": "Our prime purpose in this life is to help others. And if you can't help them, at least don't hurt them.",
+    "author": "Dalai Lama",
+    "category": "life"
+  },
+  {
+    "id": 30,
+    "quote": "Life is a series of natural and spontaneous changes. Don't resist them - that only creates sorrow. Let reality be reality. Let things flow naturally forward in whatever way they like.",
+    "author": "Lao Tzu",
+    "category": "life"
+  }
+]

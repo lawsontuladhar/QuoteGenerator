@@ -1,0 +1,62 @@
+[
+  {
+    "id": 21,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "category": "life"
+  },
+  {
+    "id": 22,
+    "quote": "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",
+    "author": "Steve Jobs",
+    "category": "life"
+  },
+  {
+    "id": 23,
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "life"
+  },
+  {
+    "id": 24,
+    "quote": "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
+    "author": "Oprah Winfrey",
+    "category": "life"
+  },
+  {
+    "id": 25,
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "category": "life"
+  },
+  {
+    "id": 26,
+    "quote": "Life is what happens while you are busy making other plans.",
+    "author": "John Lennon",
+    "category": "life"
+  },
+  {
+    "id": 27,
+    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "author": "Buddha",
+    "category": "life"
+  },
+  {
+    "id": 28,
+    "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "author": "Marie Curie",
+    "category": "life"
+  },
+  {
+    "id": 29,
+    "quote": "Our prime purpose in this life is to help others. And if you can't help them, at least don't hurt them.",
+    "author": "Dalai Lama",
+    "category": "life"
+  },
+  {
+    "id": 30,
+    "quote": "Life is a series of natural and spontaneous changes. Don't resist them - that only creates sorrow. Let reality be reality. Let things flow naturally forward in whatever way they like.",
+    "author": "Lao Tzu",
+    "category": "life"
+  }
+]

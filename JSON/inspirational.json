@@ -1,0 +1,62 @@
+[
+  {
+    "id": 11,
+    "quote": "Be the change that you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "category": "inspirational"
+  },
+  {
+    "id": 12,
+    "quote": "Not all of us can do great things. But we can do small things with great love.",
+    "author": "Mother Teresa",
+    "category": "inspirational"
+  },
+  {
+    "id": 13,
+    "quote": "Before you diagnose yourself with depression or low self-esteem, first make sure that you are not, in fact, just surrounded by assholes.",
+    "author": "Sigmund Freud",
+    "category": "inspirational"
+  },
+  {
+    "id": 14,
+    "quote": "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.",
+    "author": "Albert Einstein",
+    "category": "inspirational"
+  },
+  {
+    "id": 15,
+    "quote": "When one door closes, another door opens; but we so often look so long and regretfully upon the closed door, that we do not see the ones which open for us.",
+    "author": "Alexander Graham Bell",
+    "category": "inspirational"
+  },
+  {
+    "id": 16,
+    "quote": "This is not the end, this is not even the beginning of the end, this is just perhaps the end of the beginning.",
+    "author": "Winston Churchill",
+    "category": "inspirational"
+  },
+  {
+    "id": 17,
+    "quote": "I am a little pencil in the hand of a writing God who is sending a love letter to the world. Mother Teresa",
+    "author": "Mother Teresa",
+    "category": "inspirational"
+  },
+  {
+    "id": 18,
+    "quote": "Find a place inside where there's joy, and the joy will burn out the pain.",
+    "author": "Joseph Campbell",
+    "category": "inspirational"
+  },
+  {
+    "id": 19,
+    "quote": "I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.'",
+    "author": "Muhammad Ali",
+    "category": "inspirational"
+  },
+  {
+    "id": 20,
+    "quote": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle Onassis",
+    "category": "inspirational"
+  }
+]
