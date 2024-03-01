@@ -6,36 +6,42 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Quote Generator</title>
   </head>
-  <body>
-    <div class="container">
-      <div class="quote-container">
-        <p id="quote">Loading Quote...</p>
-        <p id="author">Loading Author...</p>
-        <p id="category">Category: Loading...</p>
+
+  <body id="quoteGenerator">
+    <div class="container" id="container">
+      <div class="top-nav">
+        <div class="category-container">
+          <label for="category">Select Category:</label>
+          <select id="category" onchange="changeCategory()">
+            <option value="happiness">Happiness</option>
+            <option value="inspirational">Inspirational</option>
+            <option value="life">Life</option>
+          </select>
+        </div>
+        <div class="mode-switch">
+          <input type="checkbox" id="darkMode" onclick="toggleDarkMode()" />
+          <label for="darkMode">Dark Mode</label>
+        </div>
       </div>
-
-      <div class="controls">
-        <button onclick="prevQuote()">Previous</button>
-        <button onclick="nextQuote()">Next</button>
-        <button onclick="randomQuote()">Random</button>
+      <div class="controls" id="controls">
+        <button id="prevButton"class="navigation-button" disabled onclick="prevQuote()">&#8592 Previous</button>
+        <button id="nextButton" class="navigation-button" onclick="nextQuote()">Next &#8594</button>
+        <button id="randomButton" class="navigation-button" onclick="randomQuote()">&#10542 Random</button>
       </div>
-
-      <div class="options">
-        <label for="category">Select Category:</label>
-        <select id="category" onchange="changeCategory()">
-          <option value="happiness">Happiness</option>
-          <option value="inspirational">Inspirational</option>
-          <option value="life">Life</option>
-        </select>
-
-        <label for="darkMode">Dark Mode:</label>
-        <input type="checkbox" id="darkMode" onchange="toggleDarkMode()" />
-
-        <label for="fontSize">Font Size:</label>
-        <button onclick="increaseFontSize()">+</button>
-        <button onclick="decreaseFontSize()">-</button>
+      <div class="quote-container" id="quoteContainer">
+        <p id="quoteText"></p>
+        <p id="quoteAuthor"></p>
+        <p id="quoteCategory"></p>
+      </div>
+      <div class="font-controls" id="fontControls">
+        <p>Font Size</p>
+        <div class="fontSizeButtons" id="fontSizeButtons">
+          <button id="decreaseFontSize" class="fontSizeButton" onclick="decreaseFontSize()">-</button>
+          <button id="increaseFontSize" class="fontSizeButton" onclick="increaseFontSize()">+</button>
+        </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,33 +1,152 @@
+:root {
+  --transitionSpeed: 1s;
+}
+
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
-  transition: background-color 0.3s, color 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceff5;
 }
 
 .container {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0 2rem;
+  width: fit-content;
+  height: fit-content;
+  max-width: 1000px;
+  padding: 2rem;
+  color: black;
+  transition: var(--transitionSpeed);
 }
 
 .quote-container {
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.controls {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.options {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  min-height: 300px;
+}
+
+#quoteText {
+  margin-top: 50px;
   align-items: center;
+  text-align: center;
+}
+
+#quoteAuthor {
+  margin-top: 5px;
+  text-align: right;
+  font-size: 20px;
+}
+
+#quoteCategory {
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.controls button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.category-container {
+  margin-bottom: 20px;
+}
+
+.top-nav {
+  display: flex;
+  align-items: baseline;
+  gap: 80px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+button {
+  margin: 2rem;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: rgb(226, 226, 226);
+  cursor: not-allowed;
+}
+
+.navigation-button {
+  width: 8rem;
+  outline: none;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.navigation-button:hover:not(:disabled) {
+  background-color: #b4b4b4;
+}
+
+.font-controls {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 200px;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+.fontSizeButton {
+  font-size: 30px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  color: inherit;
+  background-color: inherit;
+}
+
+.fontSizeButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fontSizeButton:hover {
+  background-color: #b4b4b4;
+}
+
+.mode-switch {
+  margin-top: 20px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+.dark-mode1 {
+  background-color: #535353;
+  color: #fff;
+}
+.dark-mode2 {
+  background-color: rgb(112, 112, 112);
+  color: #fff;
 }
